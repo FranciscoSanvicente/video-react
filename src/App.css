@@ -1,0 +1,27 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.player-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+  width:70%;
+  left: center;
+  
+  
+  
+}
+
+.react-player {
+  position: absolute;
+  top: 20px;
+  left: 25%;
+}
